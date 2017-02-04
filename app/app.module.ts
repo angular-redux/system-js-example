@@ -1,6 +1,6 @@
 import { NgModule }       from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
-import { NgReduxModule }  from 'ng2-redux';
+import { NgReduxModule }  from '@angular-redux/store';
 
 import { AppComponent }   from './app.component';
 import { CounterActions } from './actions';

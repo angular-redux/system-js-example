@@ -6,11 +6,11 @@ export interface AppState {
 }
 
 export const INITIAL_STATE: AppState = {
-  counter: 0
-}
+  counter: 0,
+};
 
 export function rootReducer(state: AppState, action: Action): AppState {
-  switch(action.type) {
+  switch (action.type) {
     case CounterActions.INCREMENT: return { counter: state.counter + 1 };
     case CounterActions.DECREMENT: return { counter: state.counter - 1 };
     default: return state;
