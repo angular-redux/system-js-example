@@ -54,8 +54,8 @@ module.exports = function(config) {
       { pattern: 'node_modules/rxjs/**/*.js.map', included: false, watched: false },
 
       // Redux
-      { pattern: 'node_modules/ng2-redux/**/*.js', included: false, watched: false },
-      { pattern: 'node_modules/ng2-redux/**/*.js.map', included: false, watched: false },
+      { pattern: 'node_modules/@angular-redux/store/**/*.js', included: false, watched: false },
+      { pattern: 'node_modules/@angular-redux/store/**/*.js.map', included: false, watched: false },
       { pattern: 'node_modules/redux/**/*.js', included: false, watched: false },
       { pattern: 'node_modules/redux/**/*.js.map', included: false, watched: false },
 

@@ -1,11 +1,12 @@
-# Simple Ng2-Redux with SystemJS Config
+# Simple @angular-redux/store example with SystemJS config
 
 This repo was cloned from the Angular2 quickstart example:
 https://angular.io/docs/ts/latest/guide/setup.html
 
 It's a trivial counter built with
-[Ng2-Redux](https://npmjs.org/packages/ng2-redux); it's main purpose is to show
-how to set up Ng2-Redux in a SystemJS/TypeScript/LiveServer environment.
+[@angular-redux/store](https://npmjs.org/packages/@angular-redux/store); it's
+main purpose is to show how to set up @angular-redux/store in a
+SystemJS/TypeScript/LiveServer environment.
 
 # How to Run It
 

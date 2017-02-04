@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgRedux, select } from 'ng2-redux';
+import { NgRedux, select, DevToolsExtension } from '@angular-redux/store';
 import { Observable } from 'rxjs/Observable';
 
 import { CounterActions } from './actions';
@@ -8,7 +8,7 @@ import { AppState, INITIAL_STATE, rootReducer } from './store';
 @Component({
   selector: 'my-app',
   template: `
-    <h1>Hello NG2-Redux!</h1>
+    <h1>Hello @angular-redux/store!</h1>
     <p>The counter value is {{ counter$ | async }}</p>
     <p>
       <button (click)="actions.increment()">+</button>
@@ -17,11 +17,16 @@ import { AppState, INITIAL_STATE, rootReducer } from './store';
   `
 })
 export class AppComponent {
-  @select() counter$: Observable<number>;
+  @select() readonly counter$: Observable<number>;
 
   constructor(
-    private ngRedux: NgRedux<any>,
+    ngRedux: NgRedux<AppState>,
+    devTools: DevToolsExtension,
     private actions: CounterActions) {
-      ngRedux.configureStore(rootReducer, INITIAL_STATE);
+      ngRedux.configureStore(
+        rootReducer,
+        INITIAL_STATE,
+        null,
+        devTools.isEnabled() ? [ devTools.enhancer() ] : []);
     }
 }
