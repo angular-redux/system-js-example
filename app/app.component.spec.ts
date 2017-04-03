@@ -9,7 +9,8 @@ import 'rxjs/add/observable/of';
 import { AppComponent } from './app.component';
 import { CounterActions } from './actions';
 
-const mockNgRedux = {
+// I follow a 'mock all dependencies' strategy when unit testing.
+const mockNgRedux: any = {
   configureStore: () => {},
   dispatch: () => {},
   select: () => Observable.of(null),
