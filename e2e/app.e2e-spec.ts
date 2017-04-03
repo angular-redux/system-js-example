@@ -2,7 +2,7 @@ import { browser, element, by } from 'protractor';
 
 describe('QuickStart E2E Tests', function () {
 
-  let expectedMsg = 'Hello @angular-redux/store!';
+  let expectedMsg: any = 'Hello @angular-redux/store!';
 
   beforeEach(function () {
     browser.get('');
