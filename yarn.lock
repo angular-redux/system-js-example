@@ -2,41 +2,41 @@
 # yarn lockfile v1
 
 
-"@angular-redux/store@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@angular-redux/store/-/store-6.0.0.tgz#9cf6fedcb827ec49e251ae2f99692d2667c76846"
+"@angular-redux/store@^6.2.0-alpha.21":
+  version "6.2.0-alpha.21"
+  resolved "https://registry.yarnpkg.com/@angular-redux/store/-/store-6.2.0-alpha.21.tgz#7490e2180eff05b3c7711e3e79cc2bfe26c9fd3a"
 
-"@angular/common@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-2.4.1.tgz#a70167430574959c3423ac96ebdec98032d3500d"
+"@angular/common@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.0.3.tgz#17472895eb425f2812b3a79162b5b494d2506a5b"
 
-"@angular/compiler@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-2.4.1.tgz#62b4fbfc53c934bd5def78db594cbf245b3f446a"
+"@angular/compiler@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.0.3.tgz#8b3cad338ac539328e10a6a4bfaa057094f7bc89"
 
-"@angular/core@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-2.4.1.tgz#3a6d2dc7fd86fdebe4febae7eb28abad7d04c76a"
+"@angular/core@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.0.3.tgz#61be21db6aa5778e33159ffd38cbbebaf16120d9"
 
-"@angular/forms@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-2.4.1.tgz#440ff9b864b3b79c55423c9ce5863030a25767ce"
+"@angular/forms@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-4.0.3.tgz#fb8e6e0aede782bf58730a31d1179b323271816e"
 
-"@angular/http@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/http/-/http-2.4.1.tgz#f06067e370c44d025ed00a03ef704f6c46ea59ac"
+"@angular/http@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-4.0.3.tgz#efbb701a215ec7704c021676484b85ed47392f4b"
 
-"@angular/platform-browser-dynamic@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.1.tgz#5fb72038f76c1e3646cea95f5b4722d67a4419dd"
+"@angular/platform-browser-dynamic@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.0.3.tgz#5fa3b98f725999b631d7d7174e6e43dcbf6aa9ac"
 
-"@angular/platform-browser@~2.4.0":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-2.4.1.tgz#4eaa829b450be34f0029796b6c3b99e27d3d5740"
+"@angular/platform-browser@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.0.3.tgz#170b18d5af4ee02b248aa6a1f1e0584ac841681e"
 
-"@angular/router@~3.4.0":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-3.4.1.tgz#079c8580943547a710f292026ac86a08d336a49d"
+"@angular/router@~4.0.0":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-4.0.3.tgz#24184e9b1266c4ad017b2be81573464b1e4c5dfa"
 
 "@types/jasmine@^2.5.36":
   version "2.5.40"
@@ -2583,9 +2583,9 @@ type-is@~1.6.13:
     media-typer "0.3.0"
     mime-types "~2.1.13"
 
-typescript@~2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.0.10.tgz#ccdd4ed86fd5550a407101a0814012e1b3fac3dd"
+typescript@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0.tgz#2e63e09284392bc8158a2444c33e2093795c0418"
 
 ua-parser-js@0.7.12:
   version "0.7.12"
@@ -2818,6 +2818,6 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-zone.js@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.7.4.tgz#0e624fe5b724450ee433495deff15c02b3908ee0"
+zone.js@^0.8.4:
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.8.tgz#354f02bb7241af834bb83b310308a89ad012d3af"

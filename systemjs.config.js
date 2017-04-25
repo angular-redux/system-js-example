@@ -38,7 +38,7 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      '@angular-redux/store': { main: 'lib/index.js', defaultExtension: 'js' },
+      '@angular-redux/store': { main: 'lib/src/index.js', defaultExtension: 'js' },
       redux: { main: 'dist/redux.min.js', defaultExtension: 'js' },
     }
   });
